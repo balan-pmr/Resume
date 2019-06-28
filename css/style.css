@@ -12,8 +12,16 @@ a {
     background-color: #fbfaf6  !important;
 }
 /* p:hover, h1:hover, */
- a:hover  {
+a:hover  {
     background-color: black !important;
     color: white !important;
     text-decoration: none !important;
-  }
+}
+
+.modal-dialog {
+    max-width: 800px !important;
+}
+
+.modal-body {
+    height: 800px !important;
+}
