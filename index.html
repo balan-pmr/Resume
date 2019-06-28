@@ -1,22 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Balan's Resume</title>
-  <link rel="icon" href="img/Fevicon.png" type="image/png">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Balan's Resume</title>
+    <link rel="icon" href="img/Fevicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
-<body>
-    Hello, My name is Balan and this is my resume.
+
+<body style="background-color: #fbfaf6">
+
+    <div class="container">
+
+        <div id="mycontainer" class="wrapper">
+
+            <!-- HEADER -->
+            <div class="row">
+                <div class="col-sm text-left" style="background-color: transparent;">
+                    <!--
+                    <span style="color:black; font-size: 25px; "> <strong>balan's</strong> <sub> personal page </sub>
+                    </span>
+                    -->
+                    <span style="color:black; font-size: 30px; "> <strong>balan's</strong> personal page</span>
+                    <hr style="border-top: 1px solid black; margin-bottom: -2px; margin-top: -2px;" />
+                </div>
+            </div>
+
+            <!-- NAVIGATION -->
+            <div class="row">
+                <div class="col-sm text-left" style="background-color: transparent; ">
+                    <a href="#aboutme" style="font-size: 13px;">about me</a>
+                </div>
+                <div class="col-sm text-left" style="background-color: transparent; ">
+                    <a href="#workexperience" style="font-size: 13px;">work experience</a>
+                </div>
+                <div class="col-sm text-left" style="background-color: transparent; ">
+                    <a href="#contact" style="font-size: 13px;">contact</a>
+                </div>
+            </div>
+
+            <!-- ABOUT ME -->
+            <div class="row" id="aboutme">
+                <div class="col-sm">
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-sm-2 text-justify">
+                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">about me </span> </h5>
+                        </div>
+                        <div class="col-sm text-justify">
+                            <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                Hi, my name is Balan, I am a Software Engineer with a Bachelor in Computer Systems
+                                Engineering from Escuela Superior de
+                                Cómputo at Instituto Politecnico Nacional.
+                                <br /><br />
+                                Now I'm living in Mexico City and I am ready for new oportunities and challenges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WORK EXPERIENCE -->
+            <div class="row" id="workexperience">
+                <div class="col-sm">
+                    <br /><br />
+                    <div class="row">
+                        <div class="col-sm-2 text-justify">
+                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">work experience </span> </h5>
+                        </div>
+                        <div class="col-sm text-justify">
+                            <!--
+                            <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p> -->
+                            <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <b>BBVA Bancomer, Mexico CDMX — Software Engineering Lead & Manager </b> <br/>
+                                <sub>JAN 2018 - JUNE 2019</sub> <br/> 
+                            </p>
+                            <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <b>GESFOR, Mexico CDMX — Software Analyst </b> <br/>
+                                <sub>SEP 2016 - JAN 2018</sub> <br/> 
+                            </p>
+                            <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <b>EVERIS, Mexico CDMX — Software Programmer </b> <br/>
+                                <sub>JAN 2015 - SEP 2016</sub> <br/> 
+                            </p>                                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="row" id="contact">
+                <div class="col-sm" style="background-color:transparent">
+                    <div class="row">
+                        <div class="col-sm-2 text-justify">
+                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">contact </span> </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm text-center">
+                            <img width="50" alt="Clic here to visit my Github Profile" src="img/logos/github.png" />
+                        </div>
+                        <div class="col-sm text-center  ">
+                            <img width="50" alt="Clic here to visit my Linkedin Profile" src="img/logos/linkedin.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
 
 <!--
-Sources:
 https://colorlib.com/preview/#sneaky
 https://colorlib.com/wp/free-bootstrap-4-website-templates/
 https://developers.google.com/fonts/docs/getting_started
-
+https://fonts.google.com/specimen/DM+Sans?selection.family=DM+Sans
+https://www.stickpng.com/cat/icons-logos-emojis/tech-companies?page=1
+http://www.positioniseverything.net/articles/onetruelayout/
 -->
