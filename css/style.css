@@ -11,11 +11,16 @@ a {
     color: black !important ;
     background-color: #fbfaf6  !important;
 }
-/* p:hover, h1:hover, */
+
 a:hover  {
     background-color: black !important;
     color: white !important;
     text-decoration: none !important;
+}
+
+p:hover, h1:hover  {
+    background-color: black !important;
+    color: white !important;
 }
 
 .modal-dialog {
@@ -29,4 +34,16 @@ a:hover  {
 .tooltip-inner {
     max-width: 400px !important;
     text-align: justify !important;
+    background-color: #fbfaf6 !important;
+    border: 1px solid #737373 !important;
 }
+
+
+.div-blur{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-color: #ccc;
+  }
