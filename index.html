@@ -136,8 +136,7 @@
                             <span class="text-right">
                                 <p>
                                     <!-- Button trigger modal -->
-                                    <a href="#" style="font-size: 11px;" data-toggle="modal"
-                                        data-target="#exampleModal" >
+                                    <a href="#" style="font-size: 11px;" id="myBtn" >
                                         Clic here to view full resume</a>
 
                                     <!-- Modal -->
@@ -365,14 +364,14 @@
                             <h5 style="font-size: 20px;"> <span style="color:#2e0700;">contact </span> </h5>
                         </div>
                         <div class="col-sm text-center">
-                            <img width="50" alt="Clic here to visit my Github Profile" src="img/logos/github.png" />
+                            <img width="25" alt="Clic here to visit my Github Profile" src="img/logos/github.png" />
                         </div>
                         <div class="col-sm text-center">
-                            <img style="margin-top: 5px" width="50" alt="Clic here to visit my Linkedin Profile"
+                            <img style="margin-top: 5px" width="25" alt="Clic here to visit my Linkedin Profile"
                                 src="img/logos/linkedin.png" />
                         </div>
                         <div class="col-sm text-center">
-                            <img style="margin-top: 3px" width="100" alt="Clic here to visit my email Profile"
+                            <img style="margin-top: 3px" width="50" alt="Clic here to visit my email Profile"
                                 src="img/logos/outlook.png" />
                         </div>
                     </div>
@@ -411,11 +410,21 @@
         <script>
             /*Enable tooltips everywhere*/
             $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })
-            function validateViewFrom(){
-                console.log('Validating view from')
-            }
+                $('[data-toggle="tooltip"]').tooltip();          
+            });
+                
+            $("#myBtn").click(function(){
+                console.log('Validating view from...')        
+                if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                    console.log('It´s mobile view!')
+                    window.open('pdf/resume.pdf');
+                }else{
+                    console.log('It´s desktop view!')
+                    $("#exampleModal").modal();
+                }     
+            });                
+
+            
         </script>        
 
 </body>
