@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>balan's resume</title>
-    <link rel="icon" href="img/Fevicon.png" type="image/png">
+    <title>balan's personal page</title>
+    <link rel="icon" href="img/favicon.ico" type="image/ico">
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -45,9 +45,10 @@
                 <div class="col-sm text-left" style="background-color: transparent; ">
                     <a href="#aboutme" style="font-size: 13px;">about me</a>
                 </div>
+                <!--
                 <div class="col-sm text-left" style="background-color: transparent; ">
                         <a href="#education" style="font-size: 13px;">education</a>
-                    </div>                
+                </div>                -->
                 <div class="col-sm text-left" style="background-color: transparent; ">
                     <a href="#workexperience" style="font-size: 13px;">work experience</a>
                 </div>
@@ -66,9 +67,8 @@
 
             <!-- ABOUT ME -->
 
-            <div class="row" id="aboutme">
+            <div class="row section" id="aboutme">
                 <div class="col-sm">
-                    <br /><br />
                     <div class="row">
                         <div class="col-sm-3 text-justify">
                             <h5 style="font-size: 20px;"> <span style="color:#2e0700;">about me </span> </h5>
@@ -88,9 +88,9 @@
 
             <!-- EDUCATION -->
 
-            <div class="row" id="education">
+            <!--
+            <div class="row section" id="education">
                     <div class="col-sm">
-                        <br /><br />
                         <div class="row">
                             <div class="col-sm-3 text-justify">
                                 <h5 style="font-size: 20px;"> <span style="color:#2e0700;">education </span> </h5>
@@ -102,7 +102,8 @@
                             </div>
                         </div>
                     </div>
-                </div>            
+            </div>           
+            --> 
 
 
 
@@ -110,25 +111,24 @@
 
             <!-- WORK EXPERIENCE -->
 
-            <div class="row" id="workexperience">
+            <div class="row section" id="workexperience">
                 <div class="col-sm">
-                    <br /><br />
                     <div class="row">
                         <div class="col-sm-3 text-justify">
                             <h5 style="font-size: 20px;"> <span style="color:#2e0700;">work experience </span> </h5>
                         </div>
-                        <div class="col-sm">
+                        <div class="col-sm" >
                             <span class="text-justify">
-                                <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <p class="experience-tab">
                                     <i> BBVA Bancomer, Mexico CDMX </i> — <b> Software Engineering Lead & Manager </b>
                                     <br />
                                     <sub>JAN 2018 - JUNE 2019</sub> <br />
                                 </p>
-                                <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <p class="experience-tab">
                                     <i>GESFOR, Mexico CDMX </i> — <b>Software Analyst </b> <br />
                                     <sub>SEP 2016 - JAN 2018</sub> <br />
                                 </p>
-                                <p style="color:rgb(50, 48, 48); font-size:13px;">
+                                <p class="experience-tab">
                                     <i>EVERIS, Mexico CDMX</i> — <b>Software Programmer </b> <br />
                                     <sub>JAN 2015 - SEP 2016</sub> <br />
                                 </p>
@@ -176,7 +176,7 @@
 
             <!-- PROJECT FOLDER  -->
 
-            <div class="row" id="projects">
+            <div class="row section" id="projects">
                 <div class="col-sm">
                     <div class="row">
                         <div class="col-sm-3 text-justify">
@@ -185,7 +185,6 @@
                         <div class="col-sm">
                             <p style="color:rgb(50, 48, 48); font-size:13px;">
                                 <span class="text-justify">
-                                    I have participated in multiple projects for private sector enterprises - Telcel/BBVA.
                                 </span>
                             </p>
                             <span class="text-right">
@@ -194,15 +193,28 @@
                                 </p>
                             </span>
                             <span>
-                                <h6>
-                                    <div class="row">
+                                    <div class="row project-tab">
                                         <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
+                                            <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
                                                 title="
-                                                                    <font color='black'> 
-                                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                                    </font>
-                                                                " data-original-title="Insert Title">
+                                                        <p>
+                                                            <font color='red' > Description: </font>
+                                                            Mobile application that allows corporative users
+                                                            book and schedule trips between buildings and bus stops
+                                                            all over the city. <br/>
+                                                            It has a web administrator  in order to manage all trips,
+                                                            users and usability for each trip. 
+                                                        </p>
+                                                        <p>
+                                                            <font color='red' > Activities: </font>
+                                                            <ul>
+                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+                                                                    <li>Leading non-presential team (iOS, Android, Angular)</li>
+                                                                    <li>Configuring DB Schemas, ORM Java & Communication between front-back projects.</li>
+                                                                    <li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
+                                                            </ul>
+                                                        </p>
+                                                    " data-original-title="Insert Title">
                                                 2019 - Transportation
                                             </span>
                                         </div>
@@ -216,9 +228,9 @@
                                             <!-- <img width="50" src="img/logos/fabric.png" />  -->
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
                                                 title="
@@ -237,9 +249,8 @@
                                             <!-- <img width="50" src="img/logos/fabric.png" />  -->
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
                                                 title="
@@ -258,9 +269,8 @@
                                             <!-- <img width="50" src="img/logos/fabric.png" />  -->
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
                                                 title="
@@ -277,9 +287,9 @@
                                             <img width="20" src="img/logos/bootstrap.svg" />
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
                                                 title="
@@ -297,9 +307,9 @@
                                             <img width="20" src="img/logos/bootstrap.svg" />
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
             
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
@@ -317,9 +327,9 @@
                                             <img width="20" src="img/logos/bootstrap.svg" />
                                         </div>
                                     </div>
-                                </h6>
-                                <h6>
-                                    <div class="row">
+
+
+                                    <div class="row project-tab">
                                         <div class="col-7">
                                             <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
                                                 title="
@@ -337,7 +347,6 @@
                                             <img width="20" src="img/logos/bootstrap.svg" />
                                         </div>
                                     </div>
-                                </h6>
                             </span>
                         </div>
                     </div>
@@ -349,15 +358,9 @@
             </div>
 
 
-            <br/>
-            <br/>
-
-
-
-
             <!-- CONTACT -->
 
-            <div class="row" id="contact">
+            <div class="row section" id="contact">
                 <div class="col-sm" style="background-color:transparent">
                     <div class="row">
                         <div class="col-sm-3 text-justify">
@@ -382,7 +385,7 @@
 
 
             <!-- FOOTER -->
-            <div class="row" id="footer">
+            <div class="row section" id="footer">
                 <div class="col-sm" style="background-color:black; margin-top: 30px; margin-bottom: 20px;">
                     &nbsp;
                 </div>
@@ -407,9 +410,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script>
+    
+    <script>
             /*Enable tooltips everywhere*/
             $(function () {
+                console.log('Enable tooltips everywhere')
                 $('[data-toggle="tooltip"]').tooltip();          
             });
                 
@@ -425,7 +430,7 @@
             });                
 
             
-        </script>        
+     </script>        
 
 </body>
 

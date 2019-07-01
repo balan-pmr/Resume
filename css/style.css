@@ -7,6 +7,22 @@ body {
     margin: 0 auto;
 }
 
+.section  {
+    margin-top: 40px !important;
+}
+
+.experience-tab {
+    color:rgb(50, 48, 48); 
+    font-size:13px; 
+    border-left-color: rgb(0, 0, 0); 
+    border-left-width: 10px;
+    padding-left: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-style: solid;
+}
+
 a {
     color: black !important ;
     background-color: #fbfaf6  !important;
@@ -18,11 +34,8 @@ a:hover  {
     text-decoration: none !important;
 }
 
-p:hover, h1:hover  {
-    background-color: black !important;
-    color: white !important;
-}
 
+/* MODAL CSS */
 .modal-dialog {
     max-width: 800px !important;
 }
@@ -31,14 +44,16 @@ p:hover, h1:hover  {
     height: 800px !important;
 }
 
+/* TOOLTIP CSS */
+
 .tooltip-inner {
-    max-width: 400px !important;
-    text-align: justify !important;
-    background-color: #fbfaf6 !important;
-    border: 1px solid #737373 !important;
+    max-width: 500px !important;
+    text-align: left !important;
+    background-color: black !important;
+    /*border: 1px solid #737373 !important;*/
 }
 
-
+/* BLUR CSS */
 .div-blur{
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -46,4 +61,9 @@ p:hover, h1:hover  {
     -ms-filter: blur(5px);
     filter: blur(5px);
     background-color: #ccc;
-  }
+}
+
+.project-tab {
+    color:rgb(50, 48, 48); 
+    font-size:15px;
+}
