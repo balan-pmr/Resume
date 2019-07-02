@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 body {
     font-family: 'DM Sans', sans-serif !important;
+    /*background-color: #fbfaf6 !important; */
+    background-color: rgb(245, 245, 245) !important;
 }
+
 .wrapper{
     max-width: 650px;
     margin: 0 auto;
@@ -25,13 +28,21 @@ body {
 
 a {
     color: black !important ;
-    background-color: #fbfaf6  !important;
+    background-color: rgb(245, 245, 245)  !important;
 }
 
-a:hover  {
+a:hover{
     background-color: black !important;
     color: white !important;
     text-decoration: none !important;
+}
+
+.navigation-tab {
+    background-color:transparent !important;
+}
+
+.navigation-tab-black {
+    background-color:black !important;
 }
 
 
@@ -47,7 +58,7 @@ a:hover  {
 /* TOOLTIP CSS */
 
 .tooltip-inner {
-    max-width: 500px !important;
+    max-width: 300px !important;
     text-align: left !important;
     background-color: black !important;
     /*border: 1px solid #737373 !important;*/

@@ -13,7 +13,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #fbfaf6">
+<body>
 
     <div class="container">
 
@@ -42,20 +42,20 @@
             <!-- NAVIGATION -->
 
             <div class="row">
-                <div class="col-sm text-left" style="background-color: transparent; ">
-                    <a href="#aboutme" style="font-size: 13px;">about me</a>
+                <div class="col-sm text-left" >
+                    <a  href="#aboutme" style="font-size: 13px;">about me</a>
                 </div>
                 <!--
                 <div class="col-sm text-left" style="background-color: transparent; ">
                         <a href="#education" style="font-size: 13px;">education</a>
                 </div>                -->
-                <div class="col-sm text-left" style="background-color: transparent; ">
+                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
                     <a href="#workexperience" style="font-size: 13px;">work experience</a>
                 </div>
-                <div class="col-sm text-left" style="background-color: transparent; ">
+                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
                     <a href="#projects" style="font-size: 13px;">project folder</a>
                 </div>
-                <div class="col-sm text-left" style="background-color: transparent; ">
+                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
                     <a href="#contact" style="font-size: 13px;">contact</a>
                 </div>
             </div>
@@ -75,11 +75,16 @@
                         </div>
                         <div class="col-sm text-justify">
                             <p style="color:rgb(50, 48, 48); font-size:13px;">
-                                Hi, my name is Balan ...
-                                <br /><br />
-                                Now I'm living in Mexico City and I am ready for new oportunities and challenges.
+                                Hi, my name is Balan, I am a 28 years old Software Engineering with 4 years experience working for two 
+                                big enterprises in Mexico (Telecommunication & Banking sector).
+                                <br/><br/>
+                                Learn and share knownlage is one of my bigest attitude. I always addopt enterprise values 
+                                in order to understand the final product that I am working on it.
                             </p>
                         </div>
+                        <div class="col-sm-2 text-center">
+                                <img  width="100px" src="img/myself.jpeg" style="border-radius: 50%;" />
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -136,8 +141,14 @@
                             <span class="text-right">
                                 <p>
                                     <!-- Button trigger modal -->
+                                    <!--
                                     <a href="#" style="font-size: 11px;" id="myBtn" >
                                         Clic here to view full resume</a>
+                                    -->
+                                    <button type="button" id="myBtn" class="btn btn-secondary">
+                                        <font size="1px" >Download Resume &nbsp;&nbsp;</font>
+                                        <img  width="22px" src="img/download.png" />
+                                    </button>
 
                                     <!-- Modal -->
                                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -210,9 +221,13 @@
                                                             <ul>
                                                                     <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
                                                                     <li>Leading non-presential team (iOS, Android, Angular)</li>
-                                                                    <li>Configuring DB Schemas, ORM Java & Communication between front-back projects.</li>
+                                                                    <li>Configuring DB Schemas, ORM whit Java & Communication between front-back projects.</li>
                                                                     <li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
                                                             </ul>
+                                                        </p>
+                                                        <p>
+                                                                <font color='red' > Role: </font>
+                                                                Technical Leader, Java & Angular Programmer
                                                         </p>
                                                     " data-original-title="Insert Title">
                                                 2019 - Transportation
@@ -232,12 +247,28 @@
 
                                     <div class="row project-tab">
                                         <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
+                                                <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
                                                 title="
-                                                            <font color='black'> 
-                                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                            </font>
-                                                        " data-original-title="Insert Title">
+                                                        <p>
+                                                            <font color='red' > Description: </font>
+                                                            Mobile application with the information of a private medical directory 
+                                                            in order to find closet doctors, drugstores & hospitals agreements to your 
+                                                            position.
+                                                        </p>
+                                                        <p>
+                                                            <font color='red' > Activities: </font>
+                                                            <ul>
+                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+                                                                    <li>Leading non-presential team (iOS, Android)</li>
+                                                                    <li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
+                                                                    <li>Set up Bundle ID for installing in PRO env.</li>
+                                                            </ul>
+                                                        </p>
+                                                        <p>
+                                                                <font color='red' > Role: </font>
+                                                                Technical Leader, Java Programmer
+                                                        </p>                                                        
+                                                    " data-original-title="Insert Title">
                                                 2018 - Medical Service
                                             </span>
                                         </div>
@@ -252,12 +283,30 @@
 
                                     <div class="row project-tab">
                                         <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
+                                                <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
                                                 title="
-                                                            <font color='black'> 
-                                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                            </font>
-                                                        " data-original-title="Insert Title">
+                                                        <p>
+                                                            <font color='red' > Description: </font>
+                                                            Mobile application that stores all corporative mobile applications 
+                                                            for iOS & Android ready to install or update. Every users could rank, 
+                                                            comment, share and report a bug for each application published.
+                                                            It has an administrator in order to register new aplications or 
+                                                            publish new versions.
+                                                        </p>
+                                                        <p>
+                                                            <font color='red' > Activities: </font>
+                                                            <ul>
+                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+                                                                    <li>Leading non-presential team (iOS, Android, Angular)</li>
+                                                                    <li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
+                                                                    <li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
+                                                            </ul>
+                                                        </p>
+                                                        <p>
+                                                                <font color='red' > Role: </font>
+                                                                Technical Leader, Java & Angular Programmer
+                                                        </p>                                                        
+                                                    " data-original-title="Insert Title">
                                                 2018 - Private Apps Center
                                             </span>
                                         </div>
@@ -427,7 +476,15 @@
                     console.log('It´s desktop view!')
                     $("#exampleModal").modal();
                 }     
-            });                
+            });     
+
+/*
+            $("a").hover(function() {
+                console.log('Hover a tag.')
+                $('#nav-about').addClass('navigation-tab-black');
+            });
+*/
+
 
             
      </script>        
