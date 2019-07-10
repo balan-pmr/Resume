@@ -1,2 +1,2 @@
 # Resume
-This repo is specifically for updating my resume with more information that can have a pdf.
+Personal web site developed with HTML 5 & JS functions.

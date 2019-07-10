@@ -1,503 +1,733 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>balan's personal page</title>
-    <link rel="icon" href="img/favicon.ico" type="image/ico">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-
-<body>
-
-    <div class="container">
-
-        <div id="mycontainer" class="wrapper">
-
-
-
-
-            <!-- HEADER -->
-
-            <div class="row">
-                <div class="col-sm text-left" style="background-color: transparent;">
-                    <!--
-                    <span style="color:black; font-size: 25px; "> <strong>balan's</strong> <sub> personal page </sub>
-                    </span>
-                    -->
-                    <span style="color:black; font-size: 30px; "> <strong>balan's</strong> personal page</span>
-                    <hr style="border-top: 1px solid black; margin-bottom: -2px; margin-top: -2px;" />
-                </div>
-            </div>
-
-
-
-
-
-            <!-- NAVIGATION -->
-
-            <div class="row">
-                <div class="col-sm text-left" >
-                    <a  href="#aboutme" style="font-size: 13px;">about me</a>
-                </div>
-                <!--
-                <div class="col-sm text-left" style="background-color: transparent; ">
-                        <a href="#education" style="font-size: 13px;">education</a>
-                </div>                -->
-                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
-                    <a href="#workexperience" style="font-size: 13px;">work experience</a>
-                </div>
-                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
-                    <a href="#projects" style="font-size: 13px;">project folder</a>
-                </div>
-                <div class="col-sm text-left navigation-tab" style="background-color: transparent; ">
-                    <a href="#contact" style="font-size: 13px;">contact</a>
-                </div>
-            </div>
-
-
-
-
-
-
-            <!-- ABOUT ME -->
-
-            <div class="row section" id="aboutme">
-                <div class="col-sm">
-                    <div class="row">
-                        <div class="col-sm-3 text-justify">
-                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">about me </span> </h5>
-                        </div>
-                        <div class="col-sm text-justify">
-                            <p style="color:rgb(50, 48, 48); font-size:13px;">
-                                Hi, my name is Balan, I am a 28 years old Software Engineering with 4 years experience working for two 
-                                big enterprises in Mexico (Telecommunication & Banking sector).
-                                <br/><br/>
-                                Learn and share knownlage is one of my bigest attitude. I always addopt enterprise values 
-                                in order to understand the final product that I am working on it.
-                            </p>
-                        </div>
-                        <div class="col-sm-2 text-center">
-                                <img  width="100px" src="img/myself.jpeg" style="border-radius: 50%;" />
-                        </div>                        
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- EDUCATION -->
-
-            <!--
-            <div class="row section" id="education">
-                    <div class="col-sm">
-                        <div class="row">
-                            <div class="col-sm-3 text-justify">
-                                <h5 style="font-size: 20px;"> <span style="color:#2e0700;">education </span> </h5>
-                            </div>
-                            <div class="col-sm text-justify">
-                                <p style="color:rgb(50, 48, 48); font-size:13px;">
-                                        Instituto Politécnico Nacional – ESCOM – Bachelor in Computer Systems Engineering (2010-2015)
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            </div>           
-            --> 
-
-
-
-
-
-            <!-- WORK EXPERIENCE -->
-
-            <div class="row section" id="workexperience">
-                <div class="col-sm">
-                    <div class="row">
-                        <div class="col-sm-3 text-justify">
-                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">work experience </span> </h5>
-                        </div>
-                        <div class="col-sm" >
-                            <span class="text-justify">
-                                <p class="experience-tab">
-                                    <i> BBVA Bancomer, Mexico CDMX </i> — <b> Software Engineering Lead & Manager </b>
-                                    <br />
-                                    <sub>JAN 2018 - JUNE 2019</sub> <br />
-                                </p>
-                                <p class="experience-tab">
-                                    <i>GESFOR, Mexico CDMX </i> — <b>Software Analyst </b> <br />
-                                    <sub>SEP 2016 - JAN 2018</sub> <br />
-                                </p>
-                                <p class="experience-tab">
-                                    <i>EVERIS, Mexico CDMX</i> — <b>Software Programmer </b> <br />
-                                    <sub>JAN 2015 - SEP 2016</sub> <br />
-                                </p>
-                            </span>
-                            <span class="text-right">
-                                <p>
-                                    <!-- Button trigger modal -->
-                                    <!--
-                                    <a href="#" style="font-size: 11px;" id="myBtn" >
-                                        Clic here to view full resume</a>
-                                    -->
-                                    <button type="button" id="myBtn" class="btn btn-secondary">
-                                        <font size="1px" >Download Resume &nbsp;&nbsp;</font>
-                                        <img  width="22px" src="img/download.png" />
-                                    </button>
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">balan's resume</h5>
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <embed src="pdf/resume.pdf" type="application/pdf" width="100%"
-                                                        height="100%">
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-dismiss="modal">Close</button>
-                                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <!-- PROJECT FOLDER  -->
-
-            <div class="row section" id="projects">
-                <div class="col-sm">
-                    <div class="row">
-                        <div class="col-sm-3 text-justify">
-                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">project folder </span> </h5>
-                        </div>
-                        <div class="col-sm">
-                            <p style="color:rgb(50, 48, 48); font-size:13px;">
-                                <span class="text-justify">
-                                </span>
-                            </p>
-                            <span class="text-right">
-                                <p style="color:rgb(50, 48, 48); font-size:13px;">
-                                    <span style="font-size: 11px">(Hover the title for description)</span>
-                                </p>
-                            </span>
-                            <span>
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
-                                                title="
-                                                        <p>
-                                                            <font color='red' > Description: </font>
-                                                            Mobile application that allows corporative users
-                                                            book and schedule trips between buildings and bus stops
-                                                            all over the city. <br/>
-                                                            It has a web administrator  in order to manage all trips,
-                                                            users and usability for each trip. 
-                                                        </p>
-                                                        <p>
-                                                            <font color='red' > Activities: </font>
-                                                            <ul>
-                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
-                                                                    <li>Leading non-presential team (iOS, Android, Angular)</li>
-                                                                    <li>Configuring DB Schemas, ORM whit Java & Communication between front-back projects.</li>
-                                                                    <li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
-                                                            </ul>
-                                                        </p>
-                                                        <p>
-                                                                <font color='red' > Role: </font>
-                                                                Technical Leader, Java & Angular Programmer
-                                                        </p>
-                                                    " data-original-title="Insert Title">
-                                                2019 - Transportation
-                                            </span>
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="22" src="img/logos/apple.png" />
-                                            <img width="20" src="img/logos/android.png" />
-                                            <img width="28" src="img/logos/angular.png" />
-                                            <!-- <img width="20" src="img/logos/bootstrap.svg" /> -->
-                                            <img width="20" src="img/logos/firebase.png" />
-                                            <!-- <img width="50" src="img/logos/fabric.png" />  -->
-                                        </div>
-                                    </div>
-
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                                <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
-                                                title="
-                                                        <p>
-                                                            <font color='red' > Description: </font>
-                                                            Mobile application with the information of a private medical directory 
-                                                            in order to find closet doctors, drugstores & hospitals agreements to your 
-                                                            position.
-                                                        </p>
-                                                        <p>
-                                                            <font color='red' > Activities: </font>
-                                                            <ul>
-                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
-                                                                    <li>Leading non-presential team (iOS, Android)</li>
-                                                                    <li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
-                                                                    <li>Set up Bundle ID for installing in PRO env.</li>
-                                                            </ul>
-                                                        </p>
-                                                        <p>
-                                                                <font color='red' > Role: </font>
-                                                                Technical Leader, Java Programmer
-                                                        </p>                                                        
-                                                    " data-original-title="Insert Title">
-                                                2018 - Medical Service
-                                            </span>
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="22" src="img/logos/apple.png" />
-                                            <img width="20" src="img/logos/android.png" />
-                                            <img width="20" src="img/logos/firebase.png" />
-                                            <!-- <img width="50" src="img/logos/fabric.png" />  -->
-                                        </div>
-                                    </div>
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                                <span data-toggle="tooltip" data-placement="left" data-container="body" data-html="true"
-                                                title="
-                                                        <p>
-                                                            <font color='red' > Description: </font>
-                                                            Mobile application that stores all corporative mobile applications 
-                                                            for iOS & Android ready to install or update. Every users could rank, 
-                                                            comment, share and report a bug for each application published.
-                                                            It has an administrator in order to register new aplications or 
-                                                            publish new versions.
-                                                        </p>
-                                                        <p>
-                                                            <font color='red' > Activities: </font>
-                                                            <ul>
-                                                                    <li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
-                                                                    <li>Leading non-presential team (iOS, Android, Angular)</li>
-                                                                    <li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
-                                                                    <li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
-                                                            </ul>
-                                                        </p>
-                                                        <p>
-                                                                <font color='red' > Role: </font>
-                                                                Technical Leader, Java & Angular Programmer
-                                                        </p>                                                        
-                                                    " data-original-title="Insert Title">
-                                                2018 - Private Apps Center
-                                            </span>
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="22" src="img/logos/apple.png" />
-                                            <img width="20" src="img/logos/android.png" />
-                                            <img width="20" src="img/logos/firebase.png" />
-                                            <!-- <img width="50" src="img/logos/fabric.png" />  -->
-                                        </div>
-                                    </div>
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
-                                                title="
-                                                                <font color='black'> 
-                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                                </font>
-                                                            " data-original-title="Insert Title">
-                                                2018 - Performance Assessment
-                                            </span>
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="28" src="img/logos/angular.png" />
-                                            <img width="20" src="img/logos/bootstrap.svg" />
-                                        </div>
-                                    </div>
-
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
-                                                title="
-                                                                <font color='black'> 
-                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                                </font>
-                                                            " data-original-title="Insert Title">
-                                                2018 - Labor Satisfaction Surveys
-                                            </span>
-            
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="28" src="img/logos/angular.png" />
-                                            <img width="20" src="img/logos/bootstrap.svg" />
-                                        </div>
-                                    </div>
-
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-            
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
-                                                title="
-                                                            <font color='black'> 
-                                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                            </font>
-                                                        " data-original-title="Insert Title">
-                                                2017 - Sport Club Managment
-                                            </span>
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="26" src="img/logos/jquery.png" />
-                                            <img width="20" src="img/logos/bootstrap.svg" />
-                                        </div>
-                                    </div>
-
-
-                                    <div class="row project-tab">
-                                        <div class="col-7">
-                                            <span data-toggle="tooltip" data-placement="top" data-container="body" data-html="true"
-                                                title="
-                                                                <font color='black'> 
-                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum   
-                                                                </font>
-                                                            " data-original-title="Insert Title">
-                                                2017 - Billing & Digital Tickets
-                                            </span>
-            
-                                        </div>
-                                        <div class="col">
-                                            |
-                                            <img width="26" src="img/logos/prime-short.png" />
-                                            <img width="20" src="img/logos/bootstrap.svg" />
-                                        </div>
-                                    </div>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- CONTACT -->
-
-            <div class="row section" id="contact">
-                <div class="col-sm" style="background-color:transparent">
-                    <div class="row">
-                        <div class="col-sm-3 text-justify">
-                            <h5 style="font-size: 20px;"> <span style="color:#2e0700;">contact </span> </h5>
-                        </div>
-                        <div class="col-sm text-center">
-                            <img width="25" alt="Clic here to visit my Github Profile" src="img/logos/github.png" />
-                        </div>
-                        <div class="col-sm text-center">
-                            <img style="margin-top: 5px" width="25" alt="Clic here to visit my Linkedin Profile"
-                                src="img/logos/linkedin.png" />
-                        </div>
-                        <div class="col-sm text-center">
-                            <img style="margin-top: 3px" width="50" alt="Clic here to visit my email Profile"
-                                src="img/logos/outlook.png" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <!-- FOOTER -->
-            <div class="row section" id="footer">
-                <div class="col-sm" style="background-color:black; margin-top: 30px; margin-bottom: 20px;">
-                    &nbsp;
-                </div>
-            </div>
-
-
-
-
-        </div>
-
-    </div>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    
-    <script>
-            /*Enable tooltips everywhere*/
-            $(function () {
-                console.log('Enable tooltips everywhere')
-                $('[data-toggle="tooltip"]').tooltip();          
-            });
-                
-            $("#myBtn").click(function(){
-                console.log('Validating view from...')        
-                if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-                    console.log('It´s mobile view!')
-                    window.open('pdf/resume.pdf');
-                }else{
-                    console.log('It´s desktop view!')
-                    $("#exampleModal").modal();
-                }     
-            });     
-
-/*
-            $("a").hover(function() {
-                console.log('Hover a tag.')
-                $('#nav-about').addClass('navigation-tab-black');
-            });
-*/
-
-
-            
-     </script>        
-
-</body>
-
-</html>
-
+<!DOCTYPE HTML>
 <!--
-https://colorlib.com/preview/#sneaky
-https://colorlib.com/wp/free-bootstrap-4-website-templates/
-https://developers.google.com/fonts/docs/getting_started
-https://fonts.google.com/specimen/DM+Sans?selection.family=DM+Sans
-https://www.stickpng.com/cat/icons-logos-emojis/tech-companies?page=1
-http://www.positioniseverything.net/articles/onetruelayout/
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	https://html5up.net/astral
 -->
+<html>
+	<head>
+		<title>Pedro Balan Martinez Rosales</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+		<div id="wrapper">
+				
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Nav -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#projects" class="icon solid fa-swatchbook"><span>Projects</span></a>
+						<a href="#formation" class="icon solid fa-book"><span>Formation</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-linkedin"><span>Twitter</span></a> -->
+					</nav>
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Nav -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+
+
+				<!-- Main -->
+				<div id="main">
+
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Me -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				
+				
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+										<span >
+												<img  width="100px" src="images/myself.jpeg" style="border-radius: 50%;" />
+										</span>									
+									<h1>Pedro Balan Martinez Rosales</h1>
+									<p>Software Engineering</p>									
+								</header>
+								<!--
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right">
+									</span>
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span> 
+									 <img src="images/me.jpg" alt="" /> 
+								</a> -->
+
+								<span class="jumplink pic" style="background-color: #fff" >
+									<!--<img src="images/me.jpg" alt="" /> -->
+									<h5 style=" text-align: center; margin-top: 20px; padding-bottom: 10px; border: 1px solid white; 
+											border-left-color: transparent; border-right-color: transparent;
+											border-top-color: transparent;">
+										<font color="black"> About Me	</font>
+									</h5>
+									<p style=" text-align: justify;  padding: 20px;">
+										<font color="black">
+											I am a Software Engineering with almost 5 years of experience 
+											working as a programmer, analyst and technical leader developing responsive web apps,
+											web services, native mobile apps and support legacy applications.
+										</font>
+									</p>
+								</span>
+								
+							</article>
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Me -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+											
+
+
+
+
+
+
+
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Work -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work Experience</h2>
+								</header>
+								<!--
+								<p>
+									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
+									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+									luctus elit eget interdum.
+								</p>
+							-->
+							<p class="experience-tab">
+									<b> Software Engineering Leader & Manager </b>  —  <i> BBVA Bancomer, Mexico CDMX </i>
+                                    <br />
+                                    <sub style="top: -0.5em;">JAN 2018 - JUN 2019</sub> <br />
+                            </p>
+                                <p class="experience-tab">
+									<b>Software Analyst </b>  —  <i>GESFOR, Mexico CDMX </i> <br />
+                                    <sub style="top: -0.5em;">SEP 2016 - JAN 2018</sub> <br />
+                                </p>
+                             <p class="experience-tab">
+									<b>Software Programmer </b> — <i>EVERIS, Mexico CDMX</i>  <br />
+                                    <sub style="top: -0.5em;">JAN 2015 - SEP 2016</sub> <br />
+							</p>
+							<p style="text-align: center;">
+								<a href="https://docs.google.com/document/d/18edXNfPcJ1M1Xc-dEnTzX04K89yCkeTVISfGQB6-9vc/edit?usp=sharing"
+								 target="_blank">
+									<button type="button" id="myBtn" >
+											<font >See Resume </font>
+									</button>
+								</a>
+							</p>
+							<!--
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+								-->					
+							</article>
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Work -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Projects -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+							<!-- Projects -->
+							<article id="projects" class="panel">
+															
+									<header>
+											<h2> Profesional Projects</h2> 
+									</header>
+
+									
+									<p style="text-align: right; font-size: 15px;">
+											<a href='javascript:switchDescription()' >
+												<b><label name="lbltipAddedComment">Show Descriptions</label></b>
+											</a>
+									</p>		
+
+
+									<!--   Two projects per row-custom  -->
+										<span>
+												<div class="row-custom">
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3>Transportation <!--<sub style="top: -1em;">2019</sub> -->  </h3>
+																		<div>
+																				<img width="22" src="images/logos/apple.png" />
+																				<img width="20" src="images/logos/android.png" />
+																				<img width="23" src="images/logos/angular.png" />
+																				<img width="20" src="images/logos/firebase.png" />
+																				&nbsp;&nbsp;
+																				2019
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Technical Leader, Java & Angular Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																	<p>
+																			<!-- <font color='black' ><b> Description:</b> </font> -->
+																			Mobile application that allows corporative users
+																			book and schedule trips between buildings and bus stops
+																			all over the city. 
+																			It has a web administrator  in order to manage all trips,
+																			users and present metriks of each trip. 
+																	</p>
+																	<!--	
+																	<p style="text-align: justify; margin-bottom: 0.3em; font-size: 15px;">
+																			<font color='black' ><b> Activities:</b> </font>
+																			<ul style="margin-top: -10px; list-style-type: circle; font-size: 15px;">
+																					<li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+																					<li>Leading non-presential team (iOS, Android, Angular)</li>
+																					<li>Configuring DB Schemas, ORM whit Java & Communication between front-back projects.</li>
+																					<li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
+																			</ul>
+																	</p>	-->
+																</span>		
+																<hr>																																	
+														</div>
+
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3>Medical Service <!-- <sub style="top: -1em;">2018</sub> --> </h3>
+																		<div>
+																				<img width="22" src="images/logos/apple.png" />
+																				<img width="20" src="images/logos/android.png" />
+																				<img width="20" src="images/logos/firebase.png" />
+																				&nbsp;&nbsp;
+																				2018
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Technical Leader, Java Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																	<p>
+																			<!-- <font color='black' ><b> Description:</b> </font> -->
+																			Mobile application with the information of a private medical directory 
+																			in order to find the closest doctors, drug stores & hospitals agreements to 
+																			a current position.
+																	</p>	
+																	
+																	<!--
+																	<p style="text-align: justify; margin-bottom: 0.3em; font-size: 15px;">
+																			<font color='black' ><b> Activities:</b> </font>
+																			<ul style="margin-top: -10px; list-style-type: circle; font-size: 15px;">
+																					<li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+																						<li>Leading non-presential team (iOS, Android)</li>
+																						<li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
+																						<li>Set up Bundle ID for installing in PRO env.</li>
+																			</ul>
+																	</p>	
+																	-->
+																</span>		
+																<hr>																																	
+														</div>
+
+												</div>
+												<!--																				
+													<div class="row-custom" style="font-size: 15px;">
+															<div class="column-custom">
+															</div>
+															<div class="column-custom">
+															</div>
+															<div class="column-custom">	
+															</div>
+													</div> 			
+												-->																						
+										</span>		
+
+										<!--   Two projects per row-custom  -->
+										<span>
+												<div class="row-custom">
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3>Apps Center </h3>
+																		<div>
+																				<img width="22" src="images/logos/apple.png" />
+																				<img width="20" src="images/logos/android.png" />
+																				<img width="23" src="images/logos/angular.png" />
+																				<img width="20" src="images/logos/firebase.png" />
+																				&nbsp;&nbsp;
+																				2018
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Technical Leader, Java & Angular Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																	<p>
+																			<!-- <font color='black' ><b> Description:</b> </font> -->
+																			Mobile application that stores all corporative mobile applications 
+																				for iOS & Android ready to install or update. Every users could rank, 
+																				comment, share and report a bug for each application published.
+																				It has an administrator in order to register new aplications or 
+																				publish new versions.
+																	</p>
+																	
+																	<!--
+																	<p style="text-align: justify; margin-bottom: 0.3em; font-size: 15px;">
+																			<font color='black' ><b> Activities:</b> </font>
+																			<ul style="margin-top: -10px; list-style-type: circle; font-size: 15px;">
+																					<li>Manage project and configuring cloud enviroment (DEV, QA, PRO) </li>
+																					<li>Leading non-presential team (iOS, Android, Angular)</li>
+																					<li>Configuring DB Schemas, ORM with Java & Communication between front-back projects.</li>
+																					<li>Set up for enable push notifications (Firebase) & Bundle ID for installing in PRO env.</li>
+																			</ul>
+																	</p>	-->
+																</span>		
+																<hr>																																	
+														</div>
+
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3> Performance Assessment</h3>
+																		<div>
+																				<img width="23" src="images/logos/angular.png" />
+																				<img width="19" src="images/logos/bootstrap.svg" />
+																				&nbsp;&nbsp;
+																				2018
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Technical Leader, Java & Angular Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																	<p>
+																			<!-- <font color='black' ><b> Description:</b> </font> -->
+																			Web application that registers employees' performance 
+																			perception at the end of each Spring (Agile methodology) 
+																			through a survey applied to each role in the project.
+																	</p>	
+																</span>																																			
+																<hr>
+														</div>
+
+												</div>																				
+										</span>		
+
+
+										<!--   Two projects per row-custom  -->
+										<span>
+												<div class="row-custom">	
+
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3> Labor Service Surveys</h3>
+																		<div>
+																				<img width="23" src="images/logos/angular.png" />
+																				<img width="19" src="images/logos/bootstrap.svg" />
+																				&nbsp;&nbsp;
+																				2018
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Analyst, Java & Angular JS Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																		<p>
+																				<!-- <font color='black' ><b> Description:</b> </font> -->
+																				Web application that presents a wide kind of suverveys 
+																				to register employees' percepction of any 
+																				service, application or event.
+																				It has an administration in order to
+																				create any purpuse survey with multiple input response options.
+																		</p>	
+																</span>			
+																<hr>																																
+														</div>
+
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3> Sport Club Managment</h3>
+																		<div>
+																				<img width="19" src="images/logos/jquery.png" />
+																				<img width="19" src="images/logos/bootstrap.svg" />
+																				&nbsp;&nbsp;
+																				2017
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Analyst, Java & JQuery Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																		<p>
+																				<!-- <font color='black' ><b> Description:</b> </font> -->
+																				Web application that manages all subscribers & information 
+																				of private sport clubs matching with the user's location
+																				and benefits.
+																		</p>	
+																		
+																</span>	
+																<hr>																																		
+														</div>																
+
+												</div>																				
+										</span>		
+
+										<!--   Two projects per row-custom  -->
+										<span>
+												<div class="row-custom">	
+											
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3>Billing & Digital Tickets</h3>
+																		<div>
+																				<img width="20" src="images/logos/prime-short.png" />
+																				&nbsp;&nbsp;
+																				2016
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Java Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																		<p>
+																				<!-- <font color='black' ><b> Description:</b> </font> -->
+																				Web application that registers and process user's
+																				billing, plans, claims & tickes. This project is designed for
+																				technical operators, they can export pdf, print information 
+																				& aprove/change status or movements or see user's historial 
+																				transactions.
+																		</p>	
+																		
+																</span>	
+																<hr>																																		
+														</div>
+
+												</div>																				
+										</span>		
+
+										<header>
+												<br/> <h2> Personal Projects</h2> <br/>
+										</header>
+
+										<!--   Two projects per row-custom  -->
+										<span>
+												<div class="row-custom">	
+											
+														<div class="column-custom-2 project-tab" >
+																<span style="text-align: center;">
+																		<h3>Personal Web Site</h3>
+																		<div>
+																				<img width="20" src="images/logos/html-5.png" />
+																				<img width="20" src="images/logos/js.png" />
+																				&nbsp;&nbsp;
+																				2019
+																		</div>	
+																		<p style="font-size: 15px;">
+																				Front-End Programmer
+																		</p>	
+																</span>	
+																<span class="project-content">
+																	<p>
+																			<!--<font color='black' ><b>Description:</b> </font>-->
+																			Web application that holds my professional information, certifications & 
+																			project folder information that I've worked on them. 
+																	</p>	
+																	<!--
+																	<p style="text-align: justify; margin-bottom: 0.3em; font-size: 15px;">
+																			<font color='black' ><b> Activities:</b> </font>
+																			<ul style="margin-top: -10px; list-style-type: circle; font-size: 15px;">
+																					&nbsp;
+																			</ul>
+																	</p>	
+																	-->
+																</span>		
+																<hr>																																	
+														</div>
+
+												</div>																				
+										</span>		
+
+										</header>										
+
+										
+										<p style="text-align: right; font-size: 15px;">
+												<a href='javascript:switchDescription()' >
+													<b><label name="lbltipAddedComment">Show Descriptions</label></b>
+												</a>
+										</p>							
+							</article>
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Projects -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Formation -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+						<!-- Formation -->
+						<article id="formation" class="panel">
+								
+								<header>
+										<h2>Education</h2>
+									</header>
+
+									<p class="experience-tab">
+											<b> Bachelor in Computer Systems Engineering </b>  —  <i> Instituto Politécnico Nacional </i>
+											<br />
+											<sub style="top: -0.5em;">2010 - 2015</sub> <br />
+									</p>									
+									
+									<header>
+											<h2>Certifications</h2>
+									</header>
+									<p>
+										<a  
+											href="https://www.linkedin.com/school/blockdemy/" target="_blank">	
+											<p class="experience-tab">
+													<b> Soluciones Empresariales Hyperledger </b>  —  <i>Blockchain Academy México</i>
+													<br />
+													<sub style="top: -0.5em;">2018</sub>
+											</p>														
+										</a>						
+									</p>
+	
+									<p>
+											<a  
+											href="https://www.linkedin.com/company/mongodbinc/" target="_blank">
+											<p class="experience-tab">
+													<b> MongoDB Basics </b> — <i>MongoDB</i>
+													<br />
+													<sub style="top: -0.5em;">2018</sub> <br />
+											</p>											
+											</a>											
+									</p>								
+									
+						</article>
+	
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Formation -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				
+				
+
+
+
+
+
+							
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->		<!-- Contact -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact</h2>
+								</header>
+								<p style="text-align: right">
+									<i>
+									<span id="messageForContact"></span>
+									</i>
+								</p>
+								<div >								
+										<div>
+											<!-- <form action="#" method="post" > 
+												onchange="javascript:validateContactForm()"
+											-->
+											<form>
+													
+												<div>
+													<div class="row">
+														<div class="col-6 col-12-medium">
+															<input type="text" name="name" placeholder="Name" />
+														</div>
+														<div class="col-6 col-12-medium">
+															<input type="text" name="email" placeholder="Email" />
+														</div>
+														<div class="col-12">
+															<input type="text" name="subject" placeholder="Subject" />
+														</div>
+														<div class="col-12">
+															<textarea name="message" placeholder="Message" rows="6"></textarea>
+														</div>
+														<!--
+														<div class="col-12" style="text-align: center">
+															<input type="submit" value="Send Message" />
+														</div>
+														-->
+													</div>
+												</div>
+											</form>
+											
+											<div style="text-align:center">
+													<a href="javascript:validateContactForm()">
+													   <button type="button"  >
+															   <font size="4">Send Message </font>
+													   </button>
+													</a>														
+											</div>
+
+										</div>
+								</div>
+							
+								<header>
+										<br><br><h2>Social</h2> <br>
+								</header>
+
+								<div class="row-custom">		
+										<div class="column-custom-2"  style="text-align: center" >
+												<p>
+											
+													<img width="40" alt="Clic here to visit my Outlook Profile" src="images/logos/outlook2.png" />
+													&nbsp;&nbsp;<br>
+													<sub style="top: -0.5em;">balan.pmr@outlook.com</sub> 
+				
+												</p>
+										</div>
+										<div class="column-custom-2"  style="text-align: center" >
+												<p>
+														<a   href="https://www.linkedin.com/in/pedro-balan-martinez-rosales-5a2786181" target="_blank">
+														<img width="40" alt="Clic here to visit my linkedin Profile" src="images/logos/linkedin.png" />
+														&nbsp;&nbsp;
+															<!--<sub style="top: -0.5em;">linkedin</sub> -->
+														</a>
+												</p>
+										</div>					
+										<!--
+										<div class="column-custom-3"  style="text-align: center" >							
+												<p>
+														<a   href="https://github.com/balan-pmr" target="_blank">
+														<img width="40" alt="Clic here to visit my Github Profile" src="images/logos/github.png" />
+														&nbsp;&nbsp;
+														</a>
+												</p>	
+										</div>			
+										-->														
+								</div>
+							</article>
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Contact -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+
+
+
+		<!-- END Wrapper -->		
+		</div>
+		<!-- END Wrapper -->
+
+
+
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Footer -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Pedro Balan Martinez Rosales </li>
+							<!-- <li>Design: HTML5 UP</li> -->
+							<li>Views: <font color="white"><span id="visits"></span></font> </li>
+							<!-- <li>Images: <a href="http://html5up.net" target="_blank">Unsplash</a></li> -->
+						</ul>
+					</div>
+
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION --> <!-- Footer -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				<!-- SECTION --><!-- SECTION --><!-- SECTION -->
+				
+
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/page.js"></script>
+
+	</body>
+</html>
