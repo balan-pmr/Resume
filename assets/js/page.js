@@ -1,4 +1,6 @@
-var hostName = window.location.host;
+// Change hostName value to '' for local enviroment
+var hostName = window.location.host
+//hostName = ''
 
 function isEmailAddress(str) {
     var pattern =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
